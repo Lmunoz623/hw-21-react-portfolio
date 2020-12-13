@@ -11,7 +11,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarMenu">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                        <Link to="/about" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                             About
                         </Link>
                     </li>
